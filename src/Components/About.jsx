@@ -142,14 +142,14 @@ export default function About  ()  {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint excepturi repellat beatae magnam aliquid vel sequi obcaecati, soluta dignissimos adipisci cum magni nihil fugiat nam facere quae mollitia, ratione quibusdam.
                 </p>
                 <a
-                  href='#'
+                  href='/'
                   className='font=bold text-gray-800 mt-8'
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </a>
               </div>
               <div className='w-full md:w-4/12 px-4 mr-auo ml-auto'>
-                <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-600'>
+                <div className='relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-blue-600'>
                   <img 
                     alt="..."
                     src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
