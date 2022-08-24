@@ -3,10 +3,18 @@ import Navbar from '../subComponents/NavBar'
 import bg from '../assets/img/124.png'
 
 import FooterSmall from '../subComponents/FooterSmall'
+import { useNavigate } from 'react-router-dom'
 
 
 
 export default function Signup () {
+  let navigate = useNavigate();
+  const Setup = (e) => {
+    navigate('/Settings');
+    console.log(e.target.value)
+  }
+
+
   return (
     <>
       <Navbar transparent />
@@ -85,6 +93,7 @@ export default function Signup () {
                           className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
                           type="button"
                           style={{ transition: "all .15s ease" }}
+                          onClick={Setup}
                         >
                           sign up
                         </button>
